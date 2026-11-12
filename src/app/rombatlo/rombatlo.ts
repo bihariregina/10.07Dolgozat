@@ -1,11 +1,16 @@
+/*
+# * File: src/app/rombatlo/rombatlo.ts
+# * Author: Bihari Regina
+# * Copyright: 2026, Bihari Regina
+# * Group: Szoft V
+# * Date: 2021-10-07
+# * Github: https://github.com/bihariregina/10.07Dolgozat
+# * Licenc: MIT
+# */
 
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-// A program egy rombusz területének kiszámítására használható.
-// Készítette: VEZETÉKNÉV KERESZTNÉV
-// Dátum: 2026.11.12.
-// Osztály: OSZTÁLYOD
 
 @Component({
   selector: 'app-rombatlo',
