@@ -1,0 +1,33 @@
+
+<h2>Rombusz területének kiszámítása az átlók alapján.</h2>
+
+
+
+<p>Terület képlete: T = (e * f) / 2</p>
+
+<label for="e">Első átló (e):</label>
+<input
+  type="number"
+  id="e"
+  [(ngModel)]="e"
+  placeholder="Első átló hossza"
+/>
+
+<label for="f">Második átló (f):</label>
+<input
+  type="number"
+  id="f"
+  [(ngModel)]="f"
+  placeholder="Második átló hossza"
+/>
+
+<button (click)="szamol()">Kiszámítás</button>
+
+@if (hiba) {
+  <p class="hiba">{{ hiba }}</p>
+}
+
+@if (terulet !== null) {
+  <h3>A rombusz területe: {{ terulet }}</h3>
+}
+
